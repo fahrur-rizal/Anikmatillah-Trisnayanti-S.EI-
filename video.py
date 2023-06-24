@@ -20,4 +20,3 @@ def app():
             falling_speed=5,
             animation_length="infinite",
         )
-app()
