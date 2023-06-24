@@ -38,6 +38,6 @@ if  not st.session_state.login_status:
     login()
 else:
     import video
-    video.app
+    video.app()
             
 
