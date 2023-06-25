@@ -15,7 +15,6 @@ def authent(username, password):
         if username == df_user['user'][i] and password ==str(df_user['password'][i]):
             return True
     return False
-   
 
 def login():
     st.title("Login Page")
@@ -42,4 +41,3 @@ else:
     import video
     video.app()
             
-
