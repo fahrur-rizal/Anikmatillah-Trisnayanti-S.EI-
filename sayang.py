@@ -11,11 +11,11 @@ st.set_page_config(
 def authent(username, password):
     import pandas as pd
     df_user = pd.read_csv('user.csv')
-    for i in range (5):
-       if username == df_user['user'][i] and password ==str(df_user['password'][i]):
-          return True
-       else:
-          return False
+    for i in range(5):
+        if username == df_user['user'][i] and password ==str(df_user['password'][i]):
+            return True
+    return False
+   
 
 def login():
     st.title("Login Page")
